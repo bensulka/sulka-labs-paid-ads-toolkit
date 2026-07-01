@@ -1,0 +1,30 @@
+{
+  "name": "sulka-labs",
+  "owner": {
+    "name": "Sulka Labs",
+    "email": "ben@sulkasearch.com"
+  },
+  "metadata": {
+    "description": "Free paid media skills for Claude, by Sulka Labs.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "sulka-labs-paid-ads-toolkit",
+      "source": "./plugins/sulka-labs-paid-ads-toolkit",
+      "description": "Ten drop-in skills that audit and improve Google Ads and Meta Ads accounts for any brand. Finds wasted spend, grades campaigns, writes human-sounding ads, builds audiences, and stops the scroll. Works with a connected ad account or with data you paste in. No API keys, no code.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Sulka Labs"
+      },
+      "keywords": [
+        "google-ads",
+        "meta-ads",
+        "paid-media",
+        "ppc",
+        "dtc",
+        "ecommerce"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "sulka-labs-paid-ads-toolkit",
+  "version": "0.2.0",
+  "description": "Ten drop-in skills that audit and improve Google Ads and Meta Ads accounts for any brand. Finds wasted spend, grades campaigns, writes human-sounding ads, builds audiences, and stops the scroll. Works with a connected ad account or with data you paste in. No API keys, no code.",
+  "author": {
+    "name": "Sulka Labs",
+    "email": "ben@sulkasearch.com"
+  },
+  "homepage": "https://sulkalabs.com",
+  "keywords": [
+    "google-ads",
+    "meta-ads",
+    "paid-media",
+    "ppc",
+    "dtc",
+    "ecommerce",
+    "advertising",
+    "audit"
+  ]
+}
