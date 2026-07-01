@@ -6,7 +6,6 @@ They run inside Claude, connected to your real ad data or working from a data ex
 
 Built by [Sulka Labs](https://sulkalabs.com), a human-led, AI-driven growth partner for DTC brands.
 
-
 ---
 
 ## The skills
@@ -35,28 +34,31 @@ Built by [Sulka Labs](https://sulkalabs.com), a human-led, AI-driven growth part
 
 ## Install
 
-### Option A: One-click (Claude Code or Cowork with plugins)
+Pick the version of Claude you use.
 
-In Claude, run:
+### Claude desktop app (most people)
+
+1. Download `sulka-labs-paid-ads-toolkit.plugin` from this repo (click the file, then Download).
+2. Open the Claude desktop app and click **Customize** in the top right.
+3. Go to the **Plugins** section.
+4. Use the upload option and select the `.plugin` file you downloaded.
+5. Done. Ask Claude "find wasted spend in my Google Ads" or "rewrite my hook" and the right skill loads.
+
+### Claude Code (developers, terminal)
+
+In the Claude Code prompt, run:
 
 ```
 /plugin marketplace add bensulka/sulka-labs-paid-ads-toolkit
 /plugin install sulka-labs-paid-ads-toolkit@sulka-labs
 ```
 
-That is it. Ask Claude "find wasted spend in my Google Ads" or "rewrite my hook" and the right skill loads.
+### claude.ai in the browser (Pro, no desktop app)
 
-### Option B: Drop-in file (Cowork)
+Browser Claude does not install plugins, but it does support Skills.
 
-1. Download `sulka-labs-paid-ads-toolkit.plugin` from this repo.
-2. Drag it into Claude, or add it under Settings > Capabilities.
-3. Ask Claude what you need.
-
-### Option C: Manual (any Claude, including claude.ai Pro)
-
-1. Download or clone this repo.
-2. Open any skill file under `plugins/sulka-labs-paid-ads-toolkit/skills/`.
-3. Paste its contents into Claude as a prompt, or add the folder as project knowledge.
+1. Open any skill file in this repo under `plugins/sulka-labs-paid-ads-toolkit/skills/`.
+2. In Claude, go to **Customize > Skills**, add a new skill, and paste the file contents in. Repeat for the skills you want. Or paste a skill straight into the chat as a prompt.
 
 ---
 
