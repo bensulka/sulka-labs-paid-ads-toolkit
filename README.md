@@ -39,7 +39,7 @@ Pick the version of Claude you use.
 ### Claude desktop app (most people)
 
 1. Download `sulka-labs-paid-ads-toolkit.plugin` from this repo (click the file, then Download).
-2. Open the Claude desktop app and click **Customize** in the top right.
+2. Open the Claude desktop app and click **Customize**.
 3. Go to the **Plugins** section.
 4. Use the upload option and select the `.plugin` file you downloaded.
 5. Done. Ask Claude "find wasted spend in my Google Ads" or "rewrite my hook" and the right skill loads.
